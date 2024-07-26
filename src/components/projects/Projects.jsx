@@ -121,10 +121,11 @@ const Projects = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     <a
+                      className="services__modal-webpage-btn"
                       href="https://backroads-app-delta.vercel.app/"
                       target="_blank"
                     >
-                      Click Here
+                      Go to Website
                     </a>
                   </p>
                 </li>
