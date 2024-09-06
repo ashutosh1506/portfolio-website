@@ -34,39 +34,40 @@ const Projects = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Legal Service Provider</h3>
+              <h3 className="services__modal-title">Jobs Portal</h3>
               <p className="services__modal-description">
-                A website that helps users connect individuals in need of legal
-                services with lawyers who specialize in the relevant area of
-                law.
+              Developed a full-stack MERN application for tracking and managing job applications
               </p>
               <ul className="services__modal-services grid">
+                         
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I created this project for Smart India Hackathon 2023
+                  Integrated secure user authentication and authorization mechanisms.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Worked as a Frontend Developer
+                  Ensured the application's full responsiveness and accessibility across various devices.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Tech Stack : Html, CSS, JavaScript, React.
+                    Tech Stack : MERN 
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    <a
+                      className="services__modal-webpage-btn"
+                      href="https://jobify-mern-project-kgva.onrender.com"
+                      target="_blank"
+                    >
+                      Go to Website
+                    </a>
                   </p>
                 </li>
               </ul>

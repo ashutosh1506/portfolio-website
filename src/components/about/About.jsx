@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Ashutosh-CV.pdf";
+import CV from "../../assets/MyResume.pdf";
 import Info from "./Info";
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
+            Full stack developer, I create web pages with UI / UX user interface,
             I am a third-year B.Tech student.{" "}
           </p>
           <a download="" href={CV} className="button button--flex">
