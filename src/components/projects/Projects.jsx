@@ -15,7 +15,7 @@ const Projects = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Legal Service <br /> Provider
+              Jobs <br /> Portal
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -36,27 +36,27 @@ const Projects = () => {
               ></i>
               <h3 className="services__modal-title">Jobs Portal</h3>
               <p className="services__modal-description">
-              Developed a full-stack MERN application for tracking and managing job applications
+                Developed a full-stack MERN application for tracking and
+                managing job applications
               </p>
               <ul className="services__modal-services grid">
-                         
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Integrated secure user authentication and authorization mechanisms.
+                    Integrated secure user authentication and authorization
+                    mechanisms.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                  Ensured the application's full responsiveness and accessibility across various devices.
+                    Ensured the application's full responsiveness and
+                    accessibility across various devices.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Tech Stack : MERN 
-                  </p>
+                  <p className="services__modal-info">Tech Stack : MERN</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
